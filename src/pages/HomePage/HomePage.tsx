@@ -1,4 +1,4 @@
-import { Flex, H1, P, Span } from '@shared/components';
+import { Button, Flex, H1, P, Span } from '@shared/components';
 
 const HomePage = () => {
   return (
@@ -6,6 +6,7 @@ const HomePage = () => {
       <H1>Home Page</H1>
       <P>This is a home page</P>
       <Span>This is a span</Span>
+      <Button>Click me</Button>
     </Flex>
   );
 };

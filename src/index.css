@@ -1,1 +1,28 @@
 @import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primary-50: #faf5ff;
+  --color-primary-100: #f2e8ff;
+  --color-primary-200: #e8d5ff;
+  --color-primary-300: #d6b4fe;
+  --color-primary-400: #bd84fc;
+  --color-primary-500: #a455f7;
+  --color-primary-600: #8726e8;
+  --color-primary-700: #7a23cd;
+  --color-primary-800: #6821a8;
+  --color-primary-900: #551c87;
+  --color-primary-950: #390764;
+  --color-primary: #a455f7;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}

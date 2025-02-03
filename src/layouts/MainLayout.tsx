@@ -6,7 +6,7 @@ const FullscreenWithTopbarLayout = ({ children }: { children?: React.ReactNode }
     <div className="h-screen w-screen flex flex-col">
       <MainHeader />
 
-      <main className="flex-grow">{children ? children : <Outlet />}</main>
+      <main className="grow">{children ? children : <Outlet />}</main>
     </div>
   );
 };

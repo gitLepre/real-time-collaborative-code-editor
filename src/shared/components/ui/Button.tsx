@@ -8,15 +8,17 @@ type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
   variant?: Variant;
 };
 
-const DEFAULT_CLASSES = 'rounded-md p-2 cursor-pointer';
+const DEFAULT_CLASSES = 'rounded-md p-2 cursor-pointer font-semibold transition-colors';
 const VARIANT_CLASSES = {
   primary: {
-    baseline: 'bg-primary-500 text-primary-500 rounded-md p-2',
-    hover: 'hover:text-primary-200',
+    baseline: 'bg-primary-600 text-white rounded-md p-2',
+    hover: 'hover:bg-primary-500',
     active: 'active:bg-primary-700',
   },
   secondary: {
-    baseline: 'bg-secondary-500 text-red-50 rounded-md p-2',
+    baseline: 'bg-secondary-600 text-white rounded-md p-2',
+    hover: 'hover:bg-secondary-500',
+    active: 'active:bg-secondary-700',
   },
 };
 
