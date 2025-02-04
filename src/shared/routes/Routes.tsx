@@ -2,7 +2,7 @@ import FullscreenLayout from '@/layouts/FullscreenLayout';
 import FullscreenWithTopbarLayout from '@/layouts/MainLayout';
 import { lazy, Suspense } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
-import { Paths } from './constants';
+import { Paths } from './Paths';
 
 const HomePage = lazy(() => import('@/pages/HomePage/HomePage'));
 const AboutPage = lazy(() => import('@/pages/AboutPage/AboutPage'));
