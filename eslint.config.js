@@ -13,7 +13,6 @@ export default [
   },
   {
     ...js.configs.recommended,
-
     files: ['**/*.{ts,tsx,mjs,cjs}'],
     languageOptions: {
       parser: tsparser,
@@ -56,6 +55,7 @@ export default [
       '@typescript-eslint/triple-slash-reference': 'off',
       '@typescript-eslint/no-explicit-any': 'error',
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+      '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
 
       // react-refresh
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],

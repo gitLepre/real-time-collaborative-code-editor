@@ -1,9 +1,0 @@
-{
-  "extends": "./tsconfig.base.json",
-  "include": ["src", "types"],
-  "exclude": ["node_modules", "dist", ".yarn", "**/*.pnp.*"],
-  "compilerOptions": {
-    "rootDirs": ["."],
-    "typeRoots": ["./types"]
-  }
-}
