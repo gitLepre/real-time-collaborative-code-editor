@@ -1,9 +1,10 @@
 /// <reference types="vite/client" />
+/// <reference types="vite-plugin-svgr/client" />
 /// <reference types="react" />
 /// <reference types="react-dom" />
 
-type EnvironmentType = 'dev' | 'prod';
-type LogLevel = 'log' | 'warn' | 'error';
+type EnvironmentType = "dev" | "prod";
+type LogLevel = "log" | "warn" | "error";
 
 /**
  * This should always match the .env files.

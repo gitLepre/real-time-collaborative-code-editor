@@ -1,7 +1,5 @@
 export const Paths = {
   Empty: '/',
-  HomePage: '/home',
-  AboutPage: '/about',
-  TestWithParams: '/test/:id',
+  EditorPage: '/editor',
   NotFoundPage: '*',
 };

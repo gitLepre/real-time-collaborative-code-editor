@@ -21,11 +21,11 @@ type UlProps = HTMLAttributes<HTMLUListElement> & {
   className?: string;
 };
 
-const DEFAULT_CLASSNAME_H1 = 'scroll-m-20 text-4xl font-semibold tracking-tight lg:text-5xl';
-const DEFAULT_CLASSNAME_H2 = 'scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0';
-const DEFAULT_CLASSNAME_H3 = 'scroll-m-20 text-2xl font-semibold tracking-tight';
+const DEFAULT_CLASSNAME_H1 = 'text-4xl font-semibold tracking-tight lg:text-5xl';
+const DEFAULT_CLASSNAME_H2 = 'border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0';
+const DEFAULT_CLASSNAME_H3 = 'text-2xl font-semibold tracking-tight';
 
-const DEFAULT_CLASSNAME_H4 = 'scroll-m-20 text-xl font-semibold tracking-tight';
+const DEFAULT_CLASSNAME_H4 = 'text-xl font-semibold tracking-tight';
 const DEFAULT_CLASSNAME_P = 'leading-7 [&:not(:first-child)]:mt-6';
 const DEFAULT_CLASSNAME_UL = 'my-6 ml-6 list-disc [&>li]:mt-2';
 

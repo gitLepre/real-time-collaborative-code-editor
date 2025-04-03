@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite';
+import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import ReactCompilerConfig from 'babel-plugin-react-compiler';
-import tailwindcss from '@tailwindcss/vite';
+import { defineConfig } from 'vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
@@ -11,6 +11,13 @@ export default defineConfig({
     react({
       babel: {
         plugins: [['babel-plugin-react-compiler', ReactCompilerConfig]],
+      },
+    }),
+    svgr({
+      exportType: "default",
+      svgrOptions: {
+        icon: true,
+        titleProp: true,
       },
     }),
   ],
