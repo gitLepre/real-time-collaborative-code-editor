@@ -1,0 +1,9 @@
+{
+  "name": "@lepre-rtcce/models",
+  "version": "0.0.1",
+  "type": "module",
+  "workspaces": [
+    "models/typescript/*",
+    "models/golang/*"
+  ]
+}

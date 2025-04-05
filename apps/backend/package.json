@@ -1,0 +1,13 @@
+{
+  "name": "@lepre-rtcce/backend",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "setup": "go mod tidy",
+    "dev": "go run main.go",
+    "build": "go build -o dist/server main.go",
+    "lint": "golangci-lint run",
+    "clean": "rm -rf dist",
+    "check-types": "go vet"
+  }
+}
